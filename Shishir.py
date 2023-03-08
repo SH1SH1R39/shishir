@@ -1,4 +1,4 @@
-1 W = '\033[97;1m'
+W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
 Y = '\033[93;1m'
@@ -1267,7 +1267,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [NATION ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [DAZAI  ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1334,3 +1334,4 @@ def Subscraption():
 		os.system('am start https://wa.me/+8801319902239?text=' + tks)
 		Subscraption()        
 Main()
+ 
